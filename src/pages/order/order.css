@@ -1,0 +1,137 @@
+.order_table_screen {
+  width: 100%;
+}
+
+.order_table_container {
+  /* overflow-x: auto; */
+  /* margin: 20px; */
+
+}
+
+/* Styles for the order table */
+.order_table {
+  width: 100%;
+  border-collapse: collapse;
+  border: 1px solid gray;
+  border-radius: 5px;
+}
+
+/* Styles for the table header */
+.order_table th {
+  background-color: white;
+  padding: 12px;
+  font-weight: 400;
+  text-align: left;
+}
+
+/* Styles for alternating row colors */
+.order_table tbody tr:nth-child(even) {
+  background-color: #ffffff;
+}
+
+.order_table tbody tr:nth-child(odd) {
+  background-color: #f9f9f99f;
+}
+
+/* Styles for table cells */
+.order_table td {
+  padding: 12px;
+}
+
+/* Styles for the details button */
+.details_btn {
+  color: black;
+  padding: 8px;
+  cursor: pointer;
+}
+
+/* 15-12-2023 */
+/* 15-12-2023 */
+.order_detail_tabel {
+  display: flex;
+  gap: 15px;
+
+}
+
+.order_history {
+  font-weight: 400;
+  border-left: 4px solid #b22028;
+  padding-left: 15px;
+  font-size: 22px
+}
+
+.order_history2 {
+  position: relative;
+  bottom: 70px;
+}
+
+.modal_content_view {
+  display: flex;
+  width: 85%;
+  gap: 15px;
+  align-items: center;
+  position: relative;
+}
+
+.modal_view {
+  position: relative;
+  /* bottom: 150px; */
+}
+
+.close_view {
+  background: none;
+  border: none;
+  position: absolute;
+  right: 10px;
+  font-size: 20px;
+}
+
+.order_modal_details {
+  background-color: white;
+  width: 300px;
+  padding: 15px;
+}
+
+.order_details_tabel {
+  width: 100%;
+}
+
+.total_details {
+  text-align: end;
+}
+
+.receipt_download {
+  cursor: pointer;
+}
+
+.pagination {
+  display: flex;
+  justify-content: right;
+  margin-top: 20px;
+}
+
+.pagination button {
+  padding: 10px;
+  margin: 0 5px;
+  border: 1px solid #ccc;
+  background-color: #fff;
+  cursor: pointer;
+}
+
+.pagination button.active {
+  background-color: #b22028;
+  color: #fff;
+}
+
+.pagination button:disabled {
+  cursor: not-allowed;
+  opacity: 0.5;
+}
+
+
+/* mobile view  */
+@media (max-width: 768px) {
+  .order_detail_tabel {
+    flex-direction: column;
+  }
+}

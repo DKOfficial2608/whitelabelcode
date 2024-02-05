@@ -1,0 +1,154 @@
+/* menu.css */
+.menus_div {
+    display: flex;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.first_part2 {
+    flex: 0 0 20%;
+    background-color: #f0f0f0;
+    padding: 25px;
+    height: 100vh;
+}
+
+.second_part {
+    flex: 0 0 80%;
+    background-color: white;
+    padding: 10px;
+    overflow-y: scroll;
+}
+
+.link_check {
+    text-decoration: none;
+    color: black;
+}
+
+.dropdown {
+    margin-bottom: 10px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.second_part_details {
+    width: 50%;
+}
+
+/* Styling for the Custom Price text box */
+.customPrice {
+    margin-bottom: 10px;
+}
+
+#customPriceInput {
+    width: 96%;
+    padding: 10px;
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+
+#campaignDropdown,
+#offerDropdown,
+#billingModelDropdown,
+#shippingModelDropdown,
+#productDropdown,
+#templateDropdown {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+
+.form-check {
+    display: block;
+    min-height: 1.5rem;
+    padding-left: 1.5em;
+    margin-bottom: 0.125rem;
+}
+
+.form-check .form-check-input {
+    float: left;
+    margin-left: -1.5em;
+}
+
+.form-check-label {
+    display: inline-block;
+    position: relative;
+    bottom: 3px;
+}
+
+.btn_add_chech {
+    background-color: #c8c8c8;
+    padding: 15px;
+    cursor: pointer;
+    border: none;
+    border-radius: 10px;
+    color: black;
+}
+
+.btn_add_chech:hover {
+    background-color: #858585;
+}
+
+.menus_div .mobile_menu_button {
+    display: none;
+}
+
+@media only screen and (max-width: 600px) {
+    #customPriceInput 
+    {
+        width: 94%;
+    }
+    .form-check-label {
+        display: inline-block;
+        position: relative;
+        bottom: 2px;
+    }
+    .menus_div {
+        flex-direction: column;
+        /* Display as column for small screens */
+    }
+
+    .menus_div .mobile_menu_button {
+        display: block;
+        background-color: #cb3030;
+
+    }
+    .menu_nm
+    {
+        position: relative;
+        color: white;
+        left: 15px;
+    }
+    .menu_div_header {
+        display: flex;
+        flex-direction: row;
+        gap: 15px;
+        align-items: center;
+        position: relative;
+    }
+
+    .menu_icon_main {
+        font-size: 25px;
+        position: absolute;
+        right: 10px;
+        color: white;
+    }
+
+    .first_part2 {
+        display: none;
+    }
+
+    .second_part_details {
+        width: 100%;
+    }
+
+    .menus_div.open .first_part2 {
+        display: block;
+    }
+    .btn_add_chech {
+        width: 100%;
+    }
+}

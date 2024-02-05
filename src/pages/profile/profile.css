@@ -1,0 +1,245 @@
+/* Add this CSS to your stylesheets or style section in your component */
+
+/* Style for the fixed message container */
+.fixed-message-container {
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    background-color: #4caf50;
+    /* Green color */
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    display: none;
+    z-index: 999999;
+}
+
+/* Style for the success message text */
+.fixed-message-text {
+    margin: 0;
+}
+
+/* Add animation for fade in/out effect */
+@keyframes fadeInOut {
+    0% {
+        opacity: 0;
+    }
+
+    25% {
+        opacity: 1;
+    }
+
+    75% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0;
+    }
+}
+
+.fixed-message-container.show {
+    animation: fadeInOut 3s ease-in-out;
+    display: block;
+}
+
+
+.screen_profile {
+    width: 100%;
+    margin-bottom: 50px;
+}
+
+.upload_pic {
+    display: flex;
+}
+
+.show_pic_upload {
+    width: 100px;
+    background-color: white;
+    border-radius: 50px;
+    height: 100px;
+}
+
+.upload_file {
+    width: 85%;
+    display: flex;
+    position: relative;
+}
+
+.priview_img {
+    /* width: 10%!important; */
+    height: 100px !important;
+    object-fit: contain !important;
+    border-radius: 50px !important;
+    width: 100% !important;
+    height: 80px !important;
+}
+
+.upload_btn {
+    width: 20%;
+    height: 50px;
+    position: relative;
+    font-weight: 500;
+    left: 25px;
+    border-radius: 5px;
+    font-size: 20px;
+    top: 25px;
+    color: #b72b2e;
+    background: #f6e4e4;
+    border: none;
+}
+
+.profile_name {
+    color: #b72b2e;
+    font-weight: 700;
+}
+
+.form_part_2 {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Styles for form rows */
+.form_row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+
+/* Styles for form groups */
+.form_group {
+    flex: 1;
+    margin-right: 10px;
+}
+.radio_btn_class
+{
+    display: inline;
+}
+.radio_btn_class2
+{
+    display: inline;
+    margin-left: 15px;
+}
+/* Styles for labels */
+label {
+    font-weight: 600;
+    margin-bottom: 5px;
+    color: #151c30;
+}
+
+/* Styles for input fields */
+.input_tag {
+    padding: 10px;
+    width: 100%;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+    border: none;
+    top: 10px;
+    position: relative;
+}
+
+/* Styles for the update password title */
+.update_password_title {
+    font-weight: 700;
+    margin-bottom: 10px;
+    color: #b72b2e;
+}
+
+/* Styles for 2-Factor Authentication title */
+.two_factor_title {
+    font-weight: 700;
+    color: #b22028;
+    margin-bottom: 10px;
+}
+
+/* Styles for radio buttons */
+.form_group input[type="radio"] {
+    margin-right: 5px;
+}
+
+/* Styles for Billing & Shipping title */
+.billing_shipping_title {
+    font-weight: 700;
+    color: #b22028;
+    margin-bottom: 10px;
+}
+
+/* Styles for Edit Payment Method */
+.edit_payment_method {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 25px;
+}
+
+.card_number {
+    font-weight: bold;
+}
+
+.exp_date {
+    margin-top: 15px;
+    font-size: 20px;
+}
+
+.edit_payment_btn {
+    margin-top: 10px;
+    background-color: transparent;
+    text-decoration: underline;
+    color: black;
+    padding: 8px;
+    font-size: 20px;
+    border: none;
+    cursor: pointer;
+}
+
+/* Styles for Shipping Information title */
+.shipping_info_title {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+#shippingAddress {
+    border: none !important;
+    width: 80%;
+    font-size: 20px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.visa_img {
+    background-color: white;
+    width: 70px;
+    border-radius: 5px;
+    height: 40px;
+}
+
+/* Styles for Save Button */
+.save_btn {
+    background-color: #b22028;
+    color: white;
+    padding: 10px;
+    width: 7%;
+    border: none;
+    border-radius: 2px;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+@media (max-width: 768px) {
+    .screen_profile {
+        width: 100%;
+        padding: 15px;
+    }
+
+    .upload_btn {
+        width: 65%;
+    }
+
+    .show_pic_upload {
+        /* width: 35%; */
+    }
+
+    .upload_file {
+        width: 50%;
+    }
+}

@@ -1,0 +1,446 @@
+.home_second {
+  width: 97%;
+  background-color: #f9f5ec;
+  display: flex;
+  padding: 20px;
+  text-align: start;
+}
+
+.home_section2 {
+  width: 97%;
+  background-color: #faeceb;
+  display: flex;
+  padding: 20px;
+  flex-direction: column;
+}
+
+.home_section2_sub {
+  width: 100%;
+  padding: 10px;
+}
+
+.home_section2_sub img,
+.home_section2_sub p {
+  display: inline-block;
+  vertical-align: middle;
+  /* Aligns the elements vertically in the middle */
+}
+
+.details_alert {
+  color: #000;
+  font-size: 20px;
+  bottom: 25px;
+  position: relative;
+  word-wrap: break-word;
+}
+
+.alert_titel {
+  margin-left: 10px;
+  /* Add some space between the image and text */
+}
+
+.alert_titel {
+  font-size: 20px;
+  color: red;
+  width: 95%;
+  margin-left: 10px;
+  /* Add some space between the image and text */
+}
+
+.alert_cion {
+  width: 30px;
+  height: 30px;
+}
+
+.home_second_text {
+  color: #b49759;
+}
+
+.home_second2_details {
+  color: #000;
+
+}
+
+.home_second2_key {
+  width: 30px;
+}
+
+.home_second2_btn {
+  background-color: #b49759;
+  color: white;
+  border-radius: 10px;
+  border: transparent;
+  height: 40px;
+  gap: 5px;
+  display: flex;
+  width: 22%;
+  justify-content: center;
+  align-items: center;
+}
+
+.home_second1 {
+  width: 25%;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+}
+
+.home_second2 {
+  width: 75%;
+}
+
+.menu-toggle {
+  display: none;
+}
+
+.lock_img {
+      width: 50%;
+    height: 100%;
+    object-fit: contain;
+}
+
+/* 14-12-2023 */
+.stock_img {
+  width: 56px;
+  position: relative;
+  top: 14px;
+}
+
+.stock_img_2 {
+  width: 100px;
+  position: relative;
+  height: 100px;
+}
+
+.home_second_detais {
+  width: 100%;
+  display: flex;
+}
+
+.home_second_detais1 {
+  width: 30%;
+  text-align: center;
+  display: flex;
+}
+
+.home_second_detais2 {
+  width: 70%;
+  display: flex;
+  justify-content: start;
+  text-align: center;
+}
+
+.renew_now {
+  background-color: #b22028;
+  position: relative;
+  top: 25px;
+  color: white;
+  width: 50%;
+  padding-left: 25px;
+  padding-right: 25px;
+  border: none;
+  border-radius: 5px;
+  height: 50px;
+}
+
+.home_sub_part1 {
+  width: 20%;
+}
+
+.home_sub_part2 {
+  width: 80%;
+  text-align: left;
+}
+
+
+.orders_home {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 50px;
+}
+
+.orders_home1 {
+  width: 50%;
+}
+
+.orders_home2 {
+  width: 50%;
+}
+
+.order-0 {
+  border-left: 4px solid #b22028;
+  font-size: 18px;
+  font-weight: 400;
+  padding-left: 10px;
+}
+
+.order-1 {
+  border-left: 4px solid #b22028;
+  font-size: 18px;
+  font-weight: 400;
+  padding-left: 10px;
+}
+
+.home_box {
+  background-color: white;
+  height: fit-content;
+  width: 90%;
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+}
+
+.home_box1 {
+  width: 30%;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+}
+
+.home_box2 {
+  width: 70%;
+}
+
+.details_order_home {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  /* Center items vertically */
+  text-align: center;
+  gap: 10px;
+}
+
+.box_icon_img {
+  width: 20px;
+  height: 20px;
+}
+
+.home_box_select {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+
+.home_box_select select {
+  color: red;
+  padding: 10px;
+  border: none;
+  font-weight: bold;
+  font-size: 15px;
+}
+
+.home_box_select select:focus,
+.home_box_select option:focus {
+  border: none;
+}
+
+.home_box_select option {
+  color: red;
+  padding: 10px !important;
+  height: 20px;
+  font-size: 15px;
+}
+
+
+/* status */
+
+.root {
+  padding: 1rem;
+  border-radius: 5px;
+  background-color: white;
+}
+
+.order-track {
+  padding: 0 1rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.order-track-step {
+  display: flex;
+  height: 7rem;
+}
+
+.order-track-step:last-child {
+  overflow: hidden;
+  height: 4rem;
+}
+
+.order-track-step:last-child .order-track-status span:last-of-type {
+  display: none;
+}
+
+.order-track-status {
+  margin-right: 1.5rem;
+  position: relative;
+  top: 25px;
+}
+
+.order-track-status-dot {
+  display: block;
+  width: 2rem;
+  height: 2rem;
+  background: green
+}
+
+.order-track-status-line {
+  display: block;
+  margin: 0 auto;
+  width: 2px;
+  height: 7rem;
+  background: green;
+}
+
+.order-track-text-stat {
+  font-weight: 500;
+  margin-bottom: 3px;
+}
+
+.order-track-text-sub {
+  font-size: 1rem;
+  font-weight: 300;
+}
+
+.order-track {
+  transition: all .3s height 0.3s;
+  transform-origin: top center;
+}
+
+
+.status_details
+{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background-color: #f3f5fa;
+  gap: 10px;
+  padding: 5px;
+  border-radius: 5px;
+}
+.order_del_status_2
+{
+  line-height: 5px;
+  width: 80%;
+}
+.sync_icon
+{
+  width: 10%;
+  object-fit: contain;
+  height: 30px;
+}
+
+
+/* Media query for mobile view */
+
+
+@media screen and (max-width: 768px) {
+
+  .home_box_select {
+    flex-direction: column;
+  }
+.home_second2_btn
+{
+  width: 50%;
+}
+  .home_box_select select {
+    color: red;
+    /* Text color for mobile view */
+  }
+
+  .home_box_select option {
+    color: red;
+    /* Text color for mobile view */
+  }
+
+  /* box */
+  .details_order_home {
+    justify-content: left;
+  }
+
+  .orders_home {
+    flex-direction: column;
+    padding: 15px;
+    gap: 15px;
+    width: 100%;
+  }
+
+  .orders_home1 {
+    width: 100%;
+  }
+
+  .orders_home2 {
+    width: 100%;
+  }
+
+  .home_box {
+    width: 97%;
+    padding: 5px;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .home_box1 {
+    width: 100%;
+  }
+
+  .home_box2 {
+    width: 100%;
+    text-align: start;
+  }
+
+
+  /* box */
+
+  .alert_titel {
+    margin-left: 0px;
+  }
+
+  .details_alert {
+    font-size: 17px;
+  }
+
+  .home_second_detais {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .home_second_detais1 {
+    width: 100%;
+
+  }
+
+  .stock_img {
+    width: 69px;
+    top: 5px;
+  }
+
+  .home_second_detais2 {
+    width: 100%;
+    justify-content: center;
+  }
+
+  .renew_now {
+    top: 25px;
+    width: 100%;
+    margin-bottom: 30px;
+
+  }
+
+}
+
+
+@media screen and (max-width: 1000px) {
+  .home_sub_part2 {
+
+    margin-left: 8%;
+  }
+
+  .alert_titel {
+    margin-left: 4px;
+  }
+
+}

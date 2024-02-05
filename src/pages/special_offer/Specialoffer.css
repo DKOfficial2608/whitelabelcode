@@ -1,0 +1,151 @@
+.special_offer_main {
+    text-align: start;
+    width: 100%;
+}
+
+.cont_of1 {
+    margin: 29px
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 0;
+}
+
+.cardd {
+    display: flex;
+    flex-direction: column;
+    width: 31%;
+    background-color: white;
+    /* height: 250px; */
+    border-radius: 7px;
+    margin: 10px;
+    padding-bottom: 15px;
+    border-bottom: 2px solid #dfd9d9;
+}
+
+.card_top {
+    display: flex;
+    width: 100%;
+    height: 177px;
+}
+
+.card_img {
+    width: 29%;
+    padding: 6%;
+    height: 100px;
+    object-fit: contain;
+    margin-top: 20px;
+}
+
+.card_r {
+    width: 71%;
+    display: flex;
+    flex-direction: column;
+    margin: 21px 2px;
+    margin-top: 40px;
+    padding-right: 21px;
+}
+
+.green {
+    color: #47a347;
+    margin-top: 7px;
+    font-weight: 500;
+    font-size: 15px;
+}
+
+.card_btn {
+    /* width: 100px; */
+    margin: 2px 20px;
+    background: #47a347;
+    border: none;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    height: 42px;
+    color: white;
+    border-radius: 7px;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.black {
+    font-size: 19px;
+    font-weight: 500;
+    width: 88%;
+
+}
+
+.moreinfo {
+    display: flex;
+    justify-content: center;
+    margin-top: 7px;
+    font-size: 15px;
+    text-decoration: underline;
+}
+
+@media screen and (max-width: 768px) {
+    .special_offer_main {
+
+        width: 100%;
+    }
+
+    .cont_of1 {
+        margin: 10px;
+        margin-top: 25px;
+    }
+
+    .cardd {
+        width: 100%;
+        height: 240px;
+        margin: 1%;
+        margin-bottom: 11px;
+
+    }
+
+    .green {
+        margin-top: 7px;
+        font-size: 12px;
+    }
+
+    .black {
+        font-size: 14px;
+        width: 88%;
+    }
+
+    .card_img {
+        width: 35%;
+        padding: 8%;
+        height: 131px;
+        /* padding-top: 46px; */
+        margin-top: 34px;
+    }
+
+    .card_img {
+        width: 35%;
+        padding: 8%;
+        height: 131px;
+        /* padding-top: 46px; */
+        margin-top: 21px;
+    }
+
+    .card_r {
+        width: 73%;
+        margin: 21px 2px;
+        margin-top: 30px;
+    }
+
+    .card_top {
+        height: 151px;
+    }
+
+    .cardd {
+        width: 100%;
+
+        margin: 1%;
+        margin-bottom: 11px;
+    }
+}

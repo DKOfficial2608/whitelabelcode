@@ -1,0 +1,18 @@
+.quantity
+{
+    display: flex;
+    flex-direction: column;
+}
+.list_quantityy
+{
+    border-bottom: 1px solid gray;
+}
+
+.stock_img1
+{
+    width: 100px;
+    border: 1px solid;
+    background-color: rgb(171, 57, 57);
+    border-radius: 5px;
+    margin-left: 5px;
+}

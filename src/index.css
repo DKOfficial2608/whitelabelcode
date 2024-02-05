@@ -1,0 +1,76 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  box-sizing: border-box;
+}
+@font-face {
+  font-family: "Segoe_UI_Bold";
+  src: local("Segoe_Bold"), url(./assets/font/Segoe\ UI\ Bold.woff) format("opentype");
+}
+
+@font-face {
+  font-family: "Segoe_UI";
+  src: local("Segoe_UI"), url(./assets/font/Segoe\ UI.woff) format("opentype");
+}
+
+:root {
+  --font-500: "Segoe_UI_Bold", sans-serif;
+  --font-400: "Segoe_UI", sans-serif;
+  --font-small: 14;
+  --font-medium: 16;
+  --font-large: 18;
+  --font-xl-large: 20;
+}
+*{
+  font-family: var(--font-400);
+}
+h1,h2,h3
+{
+  --font-500: "Segoe_UI_Bold", sans-serif;
+}
+button
+{
+  font-family: var(--font-400);
+}
+p
+{
+  font-family: var(--font-400);
+}
+span
+{
+  font-family: var(--font-400);
+}
+td
+{
+  font-family: var(--font-400);
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+/* loader */
+.loader {
+  border: 16px solid #8b7f7f;
+  border-top: 16px solid #ff002b;
+  border-radius: 50%;
+  width: 80px;
+  height: 80px;
+  animation: spin 2s linear infinite;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}

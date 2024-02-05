@@ -1,0 +1,190 @@
+/* Signup.css */
+.loading-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(255, 255, 255, 0.8);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1000; /* Adjust the z-index to make sure it appears above other elements */
+  }
+  
+  .spinner {
+    border: 4px solid rgba(0, 0, 0, 0.1);
+    border-left: 4px solid #3498db;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    animation: spin 1s linear infinite;
+  }
+  
+  @keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
+  
+  
+.signup_main {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.signup_bg {
+    margin: 3% 4%;
+    width: 50%;
+    padding: 3% 30%;
+    text-align: center;
+    background-color: white;
+}
+
+.cont_sign_one {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.form {
+    text-align: start;
+    display: flex;
+    flex-direction: column;
+    /* margin-top: 24px; */
+}
+
+.inpute {
+    border: none;
+    border-bottom: 1px solid #c5c5c5;
+    height: 50px;
+    background-color: #f3efef;
+    border-radius: 5px;
+    padding-left: 20px;
+    /* margin-bottom: 10px; */
+}
+.labelee
+{
+    font-size: 15px;
+}
+.error {
+    color: red;
+    font-size: 14px;
+    margin-top: 4px;
+}
+
+/* Add other styles for labels, buttons, etc. */
+
+.sign_new {
+    color: white;
+    text-decoration: none;
+}
+
+.signup_main {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+
+.cont_sign_one {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.form {
+    text-align: start;
+    display: flex;
+    flex-direction: column;
+    /* margin-top: 24px; */
+}
+
+
+::placeholder {
+    color: rgb(84, 84, 84);
+    opacity: 1;
+    font-weight: 500;
+}
+
+.sign_btn {
+    height: 53px;
+    cursor: pointer;
+    font-size: 19px;
+    font-weight: 600;
+    background-color: #353333;
+    color: white;
+    border-radius: 6px;
+    border: none;
+    margin-top: 10px;
+}
+
+.google {
+    width: 60%;
+    margin-left: 19%;
+    background: transparent;
+    border: 1px solid #959292;
+    border-radius: 6px;
+    margin-top: 24px;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 10px;
+}
+.google_nm {
+    font-size: 16px!important;
+    position: relative;
+    top: 5px;
+    font-size: 18px!important;
+    font-weight: 400;
+}
+.sign_logo
+{
+    max-width: 40%;
+}
+.g_icon {
+    width: 30px;
+    height: 30px;
+}
+
+.forgot {
+    color: red;
+    text-decoration: none;
+    margin-top: 20px;
+    font-family: 'Arial', sans-serif;
+    
+}
+
+@media screen and (max-width: 768px) {
+    .signup_bg {
+        margin: 5% 10%;
+        width: 100%;
+        padding: 0% 0%;
+        background-color: white;
+    }
+
+    .google {
+        width: 80%;
+        margin: 0 auto;
+        height: 49px;
+        font-size: 16px;
+        background: transparent;
+        border: 1px solid #959292;
+        border-radius: 6px;
+        font-weight: 600;
+        margin-top: 24px;
+    }
+
+    .signup_main {
+        height: 674px;
+    }
+}
